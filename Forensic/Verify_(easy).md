@@ -31,7 +31,8 @@
 > Hint 2: You can create a SHA checksum of a file with sha256sum \<file> or all files in a directory with sha256sum \<directory>/*. <br>
 > Hint 3: Remember you can pipe the output of one command to another with |. Try practicing with the 'First Grep' challenge if you're stuck!
 <!----- End Hint ----->
-<h1 align="center">😉ANSWER😉</h1>
+<h3 align="center">😉ANSWER😉</h3>
+<hr>
 <p align="center">
   <img src="/assets/alice.gif" alt="alice.gif">
   <hr>
@@ -118,4 +119,8 @@ Output yang dihasilkan ternyata ada file dengan hash yang sesuai dengan isi hash
 Dari hasil file yang cocok dengan hash sebelumnya, kita lanjut untuk mendekripsi file tersebut dengan script "decrypt.sh" <br>
 dan Boom! Flagnya keluar!👀
 <!----- End Answer ----->
-
+<hr>
+<p align="center">
+  <img src="/assets/akane.gif" alt="akane.gif">
+  <hr>
+</p> 
