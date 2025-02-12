@@ -39,6 +39,7 @@
 </p> 
 
 <!----- Start Answer ----->
+### Step 1
 Jadi pertama kalian perlu launch instance nya agar mendapat server soalnya. Tiap port pemain, mungkin akan berbeda
 > [!TIP]
 > <b>ssh -p 57291 ctf-player@rhea.picoctf.net <br>
@@ -46,9 +47,10 @@ Jadi pertama kalian perlu launch instance nya agar mendapat server soalnya. Tiap
 > - Checksum: b09c99c555e2b39a7e97849181e8996bc6a62501f0149c32447d8e65e205d6d2 <br>
 > - To decrypt the file once you've verified the hash, run ./decrypt.sh files/<file>.</b>
 
-Launch ssh server yang sudah diberikan oleh soal. Kalian bebas, menggunakan apa untuk mengakses nya. Disini aku menggunakan wsl
+### Step 2
+Jalankan ssh server yang sudah diberikan oleh soal. Kalian bebas, menggunakan apa untuk mengakses nya. Disini aku menggunakan wsl
 > [!TIP]
-> <b>┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF/Forensic/easy/Verify]
+> <b>┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF/Forensic/easy/Verify]<br>
 └─$ ssh -p 57291 ctf-player@rhea.picoctf.net</b>
 
 
@@ -56,14 +58,14 @@ Launch ssh server yang sudah diberikan oleh soal. Kalian bebas, menggunakan apa 
 > ![Screenshot 2025-02-12 232437](https://github.com/user-attachments/assets/de690fde-4097-47fc-8d31-25c1d6f3f813)
 
 
-
+### Step 3
 Jika sudah kalian akan diminta konfirmasi apakah ingin lanjut dengan kondisi 
 > [!TIP]
 > <b>"Are you sure you want to continue connecting (yes/no/[fingerprint])?"</b> <br>
 
 Disini kalian bisa lanjut dengan <b>"yes"</b> lalu masukkan password yang kalian dapat sebelumnya. <br>
 <b>Disini password yang aku dapat adalah 6abf4a82</b> <br>
-
+### Step 4
 Setelah berhasil login ke server kalian bisa type ls, untuk cek isi dari direktori saat ini
 > [!TIP]
 > <b>ctf-player@pico-chall$ ls<br>
@@ -72,13 +74,14 @@ checksum.txt  decrypt.sh  files </b>
 > [!IMPORTANT]
 > ![Screenshot 2025-02-12 232537](https://github.com/user-attachments/assets/efb3931c-a3b4-492f-853c-17050515d2f0)
 
-
+### Step 5
 Disini ada beberapa file dan folder yang bisa kita akses<br>
 > [!NOTE]
 > - checksum.txt: Merupakan file dengan ekstensi .txt yang bisa kita baca
 > - decrypt.sh: Merupakan shell script atau sederhananya sebuah program yang di tulis dengan tujuan dijalankan di terminal
 > - files: files disini merupakan sebuah direktori yang kemungkinan berisi <strong>Flag</strong> yang ingin kita cari
 
+### Step 6
 Kita bisa memulai dengan cek isi dari checksum.txt
 > [!TIP]
 > <b>ctf-player@pico-chall$ cat checksum.txt <br>
@@ -90,9 +93,9 @@ b09c99c555e2b39a7e97849181e8996bc6a62501f0149c32447d8e65e205d6d2</b>
 Disini terihat bahwa isi dari file .txt ini berisi hash dari suatu file tertentu <br>
 Dari <strong>Deskripsi</strong> kita tau bahwa author menyebutkan "I'm going to provide the SHA-256 hash and a decrypt" <br>
 Disini dapat disimpulkan kalau hash dari checksum.txt berasal dari fungsi SHA-256 dan decrypt.sh merupakan script executable untuk mendekripsi file yang cocok dengan hash tersebut
-
+### Step 7
 > [!TIP]
-> ctf-player@pico-chall$ sha256sum files/*
+> ctf-player@pico-chall$ sha256sum files/*<br>
 > 914eb674c3c0625ac3d0d229d3df05e3a1e74815dbc5ec1ed72ff7f07569a6b9  files/0QFPjDGl
 c4cacb221571c4f813be56056fc0f00a244a9664ed3a7223b6bc543433984c44  files/0wKPM7Vk
 b52f46a38b72d550c15366ba1345d304449a4f46b2011c57b0858e959d9ea46b  files/10tptfxh
@@ -104,6 +107,7 @@ fca036d2d86d3989ce5015b6b11647befb394ec1eb8072ecf4c9ce5972921bb0  files/1P1L0ygq
 
 Ternyata Banyak sekali isi folder files dengan hash yang beragam <br>
 Olehkarena itu kita coba cari hash yang cocok
+### Step 8
 > [!TIP]
 > ctf-player@pico-chall$ sha256sum files/* | grep -i "b09c99c555e2b39a7e97849181e8996bc6a62501f0149c32447d8e65e205d6d2" <br>
 b09c99c555e2b39a7e97849181e8996bc6a62501f0149c32447d8e65e205d6d2  files/451fd69b
@@ -112,6 +116,7 @@ Gunakan "|" untuk menyalurkan output dari "sha256sum files/*" lalu kita proses d
 > [!NOTE]
 > grep -i: Digunakan untuk mengambil suatu string dan "-i" digunakan untuk ignore/mengabaikan kapital atau detail dari string yang kita cari
 
+### Step 9
 Output yang dihasilkan ternyata ada file dengan hash yang sesuai dengan isi hash checksum.txt
 > [!IMPORTANT]
 > ![Screenshot 2025-02-12 234825](https://github.com/user-attachments/assets/12a68e8c-158b-457b-9633-ad411b548fc6)
