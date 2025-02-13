@@ -14,5 +14,5 @@
  <h3 align="center">SEMANGAT MENGERJAKAN</h3>
  <hr>
  <p align="center">
-  <img src="/assets/alice.gif" alt="alice.gif">
+  <img src="/assets/ai.gif" alt="alice.gif">
   <hr>
