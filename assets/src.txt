@@ -3,3 +3,4 @@ akane.gif: https://i.pinimg.com/originals/f3/34/27/f33427df4d5d99e19689f3f257d42
 ai.gif: https://id.pinterest.com/pin/962151907910161575/
 anime.gif: https://id.pinterest.com/pin/222717144067080050/
 kana_arima.gif: https://id.pinterest.com/pin/330310953933243460/
+kaori.gif: https://i.pinimg.com/originals/7d/69/cd/7d69cdd9881a5634f6057bd310ec238c.gif
