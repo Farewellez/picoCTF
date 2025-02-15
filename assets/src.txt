@@ -1,2 +1,5 @@
 alice.gif: https://id.pinterest.com/pin/180636635044268708/
 akane.gif: https://i.pinimg.com/originals/f3/34/27/f33427df4d5d99e19689f3f257d4225e.gif
+ai.gif: https://id.pinterest.com/pin/962151907910161575/
+anime.gif: https://id.pinterest.com/pin/222717144067080050/
+kana_arima.gif: https://id.pinterest.com/pin/330310953933243460/
