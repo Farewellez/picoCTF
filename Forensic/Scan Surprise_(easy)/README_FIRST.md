@@ -9,6 +9,7 @@
 > Kamu bisa mencoba mendownload zbar tools terlebih dahulu <br>
 > ┌──(env)(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF/Forensic/easy] <br>
   └─$ sudo apt install zbar-tools -y
+> Aku saranin juga buat mencoba soal dulu dan membaca panduan di CTF Primer agar lebih mudah https://primer.picoctf.org/
  
  <h3 align="center">SEMANGAT MENGERJAKAN</h3>
  <hr>
