@@ -50,21 +50,23 @@ ssh -p 54481 ctf-player@atlas.picoctf.net
 Using the password 6dd28e9b. Accept the fingerprint with yes, and ls once connected to begin. Remember, in a shell, passwords are hidden!
 
 Kita diminta untuk remote server picoctf untuk mengakses file yang berisi soalnya 
+
+### Cara 2 (Akses Soal)
 > [!IMPORTANT]
 > KALIAN TIDAK HARUS LAUNCH CHALLENGE NYA <br>
 > KALIAN BISA MENDOWNLOAD SOALNYA DI "DESCRIPTION" SEBELUMNYA <br>
 > <a href="https://artifacts.picoctf.net/c_atlas/3/challenge.zip">challenge.zip</a>
 
-### Cara 2 (Akses Soal)
 > [!TIP]
 > ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF] <br>
   └─$ wget https://artifacts.picoctf.net/c_atlas/3/challenge.zip
 > ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF] <br>
   └─$ unzip challenge.zip
 
-Kalian akan menemukan flag.png dan dari sini caranya akan sama
-Keduanya sama-sama berisi file dengan nama flag.png
+Kalian akan menemukan flag.png dan dari sini caranya akan sama <br>
+Keduanya sama-sama berisi file dengan nama flag.png baik <b>Cara 1 maupun Cara 2 untuk akses soal</b> <br>
 Aku disini menggunakan remote server untuk mengerjakan
+# Pembahasan Soal
 > [!TIP]
 > ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF] <br>
   └─$ ssh -p 54481 ctf-player@atlas.picoctf.net
@@ -81,16 +83,16 @@ dan yah disini kita akan menggunakan hint yang diberikan author:
 > ![Screenshot 2025-02-15 205230](https://github.com/user-attachments/assets/6c4fc29e-676b-4b7e-81d2-b0181570a3d3)
 
 # 2. Menggunakan zbar tools
-Dari hint author, kita juga bisa menggunakan tools linux, Zbar tools
-Fitur Utama ZBar-tools
-Membaca Kode dari Gambar
-ZBar dapat mendeteksi dan membaca kode QR atau barcode yang ada di file gambar.
+Dari hint author, kita juga bisa menggunakan tools linux, Zbar tools. <br>
+Fitur Utama ZBar-tools adalah:
+- membaca Kode dari Gambar <br>
+ZBar dapat mendeteksi dan membaca kode QR atau barcode yang ada di file gambar. <br>
 
-Membaca Kode dari Kamera
+- Membaca Kode dari Kamera <br>
 Anda dapat menggunakan ZBar untuk membaca kode QR langsung dari kamera atau webcam.
 
-Mendukung Berbagai Format
-ZBar mendukung berbagai format kode, termasuk:
+Mendukung Berbagai Format <br>
+ZBar mendukung berbagai format kode, termasuk:<br>
 - QR Code
 - EAN-13/8
 - UPC-A/E
