@@ -69,7 +69,7 @@ Karena file tersebut memiliki ekstensi .pdf maka kita bisa coba melihat terlebih
 Setelah di scroll ke bawah, ternyata file tersebut memiliki teks di dalamnya. Bisa kita simpan dulu teks tersebut <br>
 > 1n_pn9_&_pdf_1f991f77}
 ### Step 4
-Kita bisa menggunakan promt selanjutnya di CLI untuk memeriksa file tersebut lebih lanjut
+Kita bisa menggunakan perintah selanjutnya di promt untuk memeriksa file tersebut lebih lanjut
 > [!TIP]
 > ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF] <br>
 └─$ file flag2of2-final.pdf <br>
@@ -86,9 +86,9 @@ Ini berarti kita bisa mengubah ekstensi file yang sebelumnya .pdf menjadi .png u
 >   ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF] <br>
 └─$ mv flag2of2-final.pdf flag2of2-final.png <br>
 > Coba buka file tersebut dan lihat apa isi dari gambarnya
-<br>
-> ![flag2of2-final](https://github.com/user-attachments/assets/9157b377-9e05-40d7-96ad-7c1a1ad04045) <br>
 
+> ![Screenshot 2025-02-16 103642](https://github.com/user-attachments/assets/6b396f9b-a9f3-460c-a022-d50f4ed71de4)
+>
 Hmm Potongan Flag lainnya? 🤔
 Mungkin bisa kita gabungkan
 picoCTF{f1u3n7_1n_pn9_&_pdf_1f991f77}
