@@ -59,7 +59,7 @@ Kita diminta untuk remote server picoctf untuk mengakses file yang berisi soalny
 
 > [!TIP]
 > ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF] <br>
-  └─$ wget https://artifacts.picoctf.net/c_atlas/3/challenge.zip
+  └─$ wget https://artifacts.picoctf.net/c_atlas/3/challenge.zip <br>
 > ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[/mnt/c/Users/ZAFARELL/CTF/picoCTF] <br>
   └─$ unzip challenge.zip
 
