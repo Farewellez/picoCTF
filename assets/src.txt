@@ -7,3 +7,5 @@ kaori.gif: https://i.pinimg.com/originals/7d/69/cd/7d69cdd9881a5634f6057bd310ec2
 Cook.gif: https://i.pinimg.com/originals/91/c6/c6/91c6c66c6a02d231896934ebc912a0c5.gif
 chisato.gif: https://i.pinimg.com/originals/64/c4/5c/64c45cd111f98e0eaaeff78daded09bb.gif
 nibutani.gif: https://i.pinimg.com/originals/95/1a/d6/951ad6bed39df0cde824063645973350.gif
+eye.gif: https://i.pinimg.com/originals/c2/34/ba/c234babb3445ee509569b656ada08cef.gif
+tamako.gif: https://i.pinimg.com/originals/97/24/d6/9724d6d1ae0f4e5018edc1a61fecafdc.gif
