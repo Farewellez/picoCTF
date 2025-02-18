@@ -10,3 +10,4 @@ nibutani.gif: https://i.pinimg.com/originals/95/1a/d6/951ad6bed39df0cde824063645
 eye.gif: https://i.pinimg.com/originals/c2/34/ba/c234babb3445ee509569b656ada08cef.gif
 tamako.gif: https://i.pinimg.com/originals/97/24/d6/9724d6d1ae0f4e5018edc1a61fecafdc.gif
 yuru.gif: https://i.pinimg.com/originals/d1/2b/0d/d12b0d947d9045e49bd3eea66b829f4d.gif
+zetanyan.gif: https://i.pinimg.com/originals/14/83/4b/14834b423da0a46ed4bf2170be2828ae.gif
