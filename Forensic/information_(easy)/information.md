@@ -53,9 +53,9 @@
 Seperti biasa kita menggunakan terminal linux untuk challenge CTF ini<br>
 Buka terminal dan download file  dari deskripsi challenge menggunakan <em>wget</em>
 > [!TIP]
-> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] <br>
+> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[\~/PicoCTF] <br>
 └─$ wget https://mercury.picoctf.net/static/a614a27d4cb251d04c7d2f3f3f76a965/cat.jpg <br>
-> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] <br>
+> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[\~/PicoCTF] <br>
 └─$ ls <br>
 cat.jpg <br>
 
