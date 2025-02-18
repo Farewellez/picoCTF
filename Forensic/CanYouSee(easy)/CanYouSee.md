@@ -66,10 +66,9 @@ Sepertinya kita perlu meng-unzip file ini. Tapi sebelum itu, agar lebih aman kit
 ### Step 2
 Coba identifikasi dulu file apa ini sebenarnya
 > [!TIP]
-> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] <br>
+> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[\~/PicoCTF] <br>
 └─$ ls <br>
-unknown.zip <br>
-> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] <br>
+> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] <br> 
 └─$ file unknown.zip <br>
 unknown.zip: Zip archive data, at least v2.0 to extract, compression method=deflate
 
@@ -79,8 +78,8 @@ Ini ada <em>Zip file</em> yang berisi data  yang dikompresi<br>
 Kita Unzip file zip ini untuk mengekstrak isinya dengan perintah: <br>
 > [!TIP]
 > ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] <br>
-└─$ unzip unknown.zip<br>
-> Archive:  unknown.zip <br>
+  └─$ unzip unknown.zip <br>
+> Archive:  unknown.zip 
   inflating: ukn_reality.jpg
 
 Sepertinya kita berhasil mengekstrak file <em>ukn_reality.jpg</em><br>
