@@ -51,11 +51,12 @@
 ### Step 1
 Seperti biasa kita menggunakan terminal linux untuk challenge CTF ini<br>
 Buka terminal dan download file  dari deskripsi challenge menggunakan <em>wget</em>
-> [!TIP]
-> ┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] <br>
-└─$ wget https://jupiter.challenges.picoctf.org/static/d0e1ffb10fc0017c6a82c57900f3ffe3/garden.jpg <br>
-> garden.jpg                    100%[=================================================>]   2.19M   537KB/s    in 4.2s <br>
-2025-02-18 10:14:36 (537 KB/s) - ‘garden.jpg’ saved [2295192/2295192] <br>
+```
+┌──(wallnut_㉿LAPTOP-B49Q3K5D)-[~/PicoCTF] 
+└─$ wget https://jupiter.challenges.picoctf.org/static/d0e1ffb10fc0017c6a82c57900f3ffe3/garden.jpg 
+ garden.jpg                    100%[=================================================>]   2.19M   537KB/s    in 4.2s <br>
+2025-02-18 10:14:36 (537 KB/s) - ‘garden.jpg’ saved [2295192/2295192] 
+```
 
 Hmm🤔, sepertinya file yang kita download adalah sebuah file gambar dengan ekstensi jpg berukuran 2.19M (MegaByte/MB) <br>
 > [!NOTE]
@@ -73,6 +74,7 @@ Hmm🤔, sepertinya file yang kita download adalah sebuah file gambar dengan eks
 ### Step 2
 Dari deskripsi soal, author memberi informasi kepada kita bahwa "contains more than it seems" terhadap file ini <br>
 Artinya file ini mengandung lebih dari sekedar yang <em>terlihat</em>, mungkin kita bisa membuka file ini dulu
+
 > ![garden](https://github.com/user-attachments/assets/a9a21e5f-cf6e-49d5-afad-d2e37e6f42ae)
 
 Hmm🤔, sepertinya tidak ada yang aneh
@@ -90,19 +92,21 @@ Kita coba menggunakan HxD untuk membuka file nya dan melihat <em>raw content</em
 >   2. Ada data yang disembunyikan <em>di bite terakhir</em> dari bagian hexdump file ini <br>
 Karena itu kita coba langsung menuju ke byte terakhir dari file <br>
 
-> [!TIP]
-> ![Screenshot 2025-02-18 111857](https://github.com/user-attachments/assets/bf4cde48-f839-40cf-861b-32519a9dd59e) <br>
-> Struktur khas dari file jpg bisa dilihat dari hexdump nya yang diawali dengan <em>FF D8</em> dan di akhiri dengan <em>FF D9</em> <br>
-> Headernya sepertinya normal dan representasi ASCHII nya juga. Kalau begitu kita coba ke bagian footer <br>
-> 
->![Screenshot 2025-02-18 111757](https://github.com/user-attachments/assets/418343b8-a18a-4097-b463-25eaa3583344) <br>
+
+ >![Screenshot 2025-02-18 111857](https://github.com/user-attachments/assets/bf4cde48-f839-40cf-861b-32519a9dd59e) <br>
+ 
+ Struktur khas dari file jpg bisa dilihat dari hexdump nya yang diawali dengan <em>FF D8</em> dan di akhiri dengan <em>FF D9</em> <br>
+ Headernya sepertinya normal dan representasi ASCHII nya juga. Kalau begitu kita coba ke bagian footer 
+
+>![Screenshot 2025-02-18 111757](https://github.com/user-attachments/assets/418343b8-a18a-4097-b463-25eaa3583344) 
 
 hmm👀, bukannya akhir footer harusnya <em>FF D9</em>? <br>
 Tapi disini ada beberapa byte hexadesimal lagi setelah EOF (End of File) <br>
 Coba kita copy karakter ASCHII dari tiap kode hexadecimal yang di dapat <br>
-> [!TIP]
-> 48 65 72 65 20 69 73 20 61 20 66 6C 61 67 20 22 70 69 63 6F 43 54 46 7B 6D 6F 72 65 5F 74 68 61 6E 5F 6D 33 33 74 73 5F 74 68 65 5F 33 79 33 65 42 64 42 64 32 63 63 7D 22 0A <br>
-> Here is a flag "picoCTF{more_than_m33ts_the_3y3eBdBd2cc}"
+```
+48 65 72 65 20 69 73 20 61 20 66 6C 61 67 20 22 70 69 63 6F 43 54 46 7B 6D 6F 72 65 5F 74 68 61 6E 5F 6D 33 33 74 73 5F 74 68 65 5F 33 79 33 65 42 64 42 64 32 63 63 7D 22 0A 
+Here is a flag "picoCTF{more_than_m33ts_the_3y3eBdBd2cc}"
+```
 
 ### Dan YESS We got the flag🚩 <br>
 Haha itu berarti data aneh yang ada dan disembunyikan setelah footer file adalah flagnya👀 <br>
