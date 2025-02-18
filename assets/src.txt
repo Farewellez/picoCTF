@@ -12,3 +12,4 @@ tamako.gif: https://i.pinimg.com/originals/97/24/d6/9724d6d1ae0f4e5018edc1a61fec
 yuru.gif: https://i.pinimg.com/originals/d1/2b/0d/d12b0d947d9045e49bd3eea66b829f4d.gif
 zetanyan.gif: https://i.pinimg.com/originals/14/83/4b/14834b423da0a46ed4bf2170be2828ae.gif
 zerotwo.gif: https://i.pinimg.com/originals/3b/e0/6d/3be06dd2662a2fdc64f6bd6317d0a9fe.gif
+sand_clock: https://i.pinimg.com/originals/94/e4/50/94e450e4185f650ab7881dda0706a8ad.gif
