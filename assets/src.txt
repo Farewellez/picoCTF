@@ -15,3 +15,4 @@ zerotwo.gif: https://i.pinimg.com/originals/3b/e0/6d/3be06dd2662a2fdc64f6bd6317d
 sand_clock: https://i.pinimg.com/originals/94/e4/50/94e450e4185f650ab7881dda0706a8ad.gif
 bocchi.gif: https://i.pinimg.com/originals/58/2e/88/582e88c9717d2eb7a3a3a4e6b910190e.gif
 asuka.gif: https://i.pinimg.com/originals/79/d0/f1/79d0f1828062d0ac7ce5c6502dd1ea5f.gif
+nayuta.gif: https://id.pinterest.com/pin/780178335481035222/
