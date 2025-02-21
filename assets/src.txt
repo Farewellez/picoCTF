@@ -20,3 +20,4 @@ ketik.gif: https://i.pinimg.com/originals/69/d2/8c/69d28cb69a870c8ebee0149f7d9fd
 gore.gif: https://i.pinimg.com/originals/b6/ce/cb/b6cecbf158dc95407617d4b0c9912f27.gif
 yey.gif: https://i.pinimg.com/originals/af/44/fb/af44fb824dbf8e464b0f898fd7d6fbb2.gif
 rikka_cdkgs: https://i.pinimg.com/originals/4b/22/e0/4b22e04cbf55df8637c4920ea32e6fcf.gif
+uhul.gif: https://id.pinterest.com/pin/365776801005288863/
