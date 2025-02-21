@@ -18,3 +18,4 @@ asuka.gif: https://i.pinimg.com/originals/79/d0/f1/79d0f1828062d0ac7ce5c6502dd1e
 nayuta.gif: https://id.pinterest.com/pin/780178335481035222/
 ketik.gif: https://i.pinimg.com/originals/69/d2/8c/69d28cb69a870c8ebee0149f7d9fd7a5.gif
 gore.gif: https://i.pinimg.com/originals/b6/ce/cb/b6cecbf158dc95407617d4b0c9912f27.gif
+yey.gif: https://i.pinimg.com/originals/af/44/fb/af44fb824dbf8e464b0f898fd7d6fbb2.gif
